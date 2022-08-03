@@ -10,7 +10,6 @@
 		E5761AE628995BD300B83684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE528995BD300B83684 /* AppDelegate.swift */; };
 		E5761AE828995BD300B83684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE728995BD300B83684 /* SceneDelegate.swift */; };
 		E5761AEA28995BD300B83684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE928995BD300B83684 /* ViewController.swift */; };
-		E5761AED28995BD300B83684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5761AEB28995BD300B83684 /* Main.storyboard */; };
 		E5761AF028995BD300B83684 /* SurfEducationPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5761AEE28995BD300B83684 /* SurfEducationPractice.xcdatamodeld */; };
 		E5761AF228995BD500B83684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5761AF128995BD500B83684 /* Assets.xcassets */; };
 		E5761AF528995BD500B83684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5761AF328995BD500B83684 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		E5761AE528995BD300B83684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5761AE728995BD300B83684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5761AE928995BD300B83684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5761AEC28995BD300B83684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5761AEF28995BD300B83684 /* SurfEducationPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurfEducationPractice.xcdatamodel; sourceTree = "<group>"; };
 		E5761AF128995BD500B83684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5761AF428995BD500B83684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				E5761AE528995BD300B83684 /* AppDelegate.swift */,
 				E5761AE728995BD300B83684 /* SceneDelegate.swift */,
 				E5761AE928995BD300B83684 /* ViewController.swift */,
-				E5761AEB28995BD300B83684 /* Main.storyboard */,
 				E5761AF128995BD500B83684 /* Assets.xcassets */,
 				E5761AF328995BD500B83684 /* LaunchScreen.storyboard */,
 				E5761AF628995BD500B83684 /* Info.plist */,
@@ -129,7 +126,6 @@
 			files = (
 				E5761AF528995BD500B83684 /* LaunchScreen.storyboard in Resources */,
 				E5761AF228995BD500B83684 /* Assets.xcassets in Resources */,
-				E5761AED28995BD300B83684 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,14 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5761AEB28995BD300B83684 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5761AEC28995BD300B83684 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5761AF328995BD500B83684 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,6 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SurfEducationPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.BigApps.SurfEducationPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SurfEducationPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.BigApps.SurfEducationPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
