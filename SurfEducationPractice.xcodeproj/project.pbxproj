@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E5761AE628995BD300B83684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE528995BD300B83684 /* AppDelegate.swift */; };
 		E5761AE828995BD300B83684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE728995BD300B83684 /* SceneDelegate.swift */; };
-		E5761AEA28995BD300B83684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE928995BD300B83684 /* ViewController.swift */; };
 		E5761AF028995BD300B83684 /* SurfEducationPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5761AEE28995BD300B83684 /* SurfEducationPractice.xcdatamodeld */; };
 		E5761AF228995BD500B83684 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5761AF128995BD500B83684 /* Assets.xcassets */; };
 		E5761AF528995BD500B83684 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5761AF328995BD500B83684 /* LaunchScreen.storyboard */; };
+		E5761B07289AA0A200B83684 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761B06289AA0A200B83684 /* MainVC.swift */; };
+		E5761B0E289AA16700B83684 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761B0D289AA16700B83684 /* FavoritesListVC.swift */; };
+		E5761B11289AA19D00B83684 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761B10289AA19D00B83684 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5761AE228995BD300B83684 /* SurfEducationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfEducationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5761AE528995BD300B83684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5761AE728995BD300B83684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5761AE928995BD300B83684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5761AEF28995BD300B83684 /* SurfEducationPractice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SurfEducationPractice.xcdatamodel; sourceTree = "<group>"; };
 		E5761AF128995BD500B83684 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5761AF428995BD500B83684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5761AF628995BD500B83684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5761B06289AA0A200B83684 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E5761B0D289AA16700B83684 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		E5761B10289AA19D00B83684 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				E5761AE528995BD300B83684 /* AppDelegate.swift */,
 				E5761AE728995BD300B83684 /* SceneDelegate.swift */,
-				E5761AE928995BD300B83684 /* ViewController.swift */,
 				E5761AF128995BD500B83684 /* Assets.xcassets */,
 				E5761AF328995BD500B83684 /* LaunchScreen.storyboard */,
 				E5761AF628995BD500B83684 /* Info.plist */,
 				E5761AEE28995BD300B83684 /* SurfEducationPractice.xcdatamodeld */,
+				E5761B06289AA0A200B83684 /* MainVC.swift */,
+				E5761B0D289AA16700B83684 /* FavoritesListVC.swift */,
+				E5761B10289AA19D00B83684 /* ProfileVC.swift */,
 			);
 			path = SurfEducationPractice;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5761AEA28995BD300B83684 /* ViewController.swift in Sources */,
+				E5761B11289AA19D00B83684 /* ProfileVC.swift in Sources */,
 				E5761AF028995BD300B83684 /* SurfEducationPractice.xcdatamodeld in Sources */,
+				E5761B07289AA0A200B83684 /* MainVC.swift in Sources */,
+				E5761B0E289AA16700B83684 /* FavoritesListVC.swift in Sources */,
 				E5761AE628995BD300B83684 /* AppDelegate.swift in Sources */,
 				E5761AE828995BD300B83684 /* SceneDelegate.swift in Sources */,
 			);
