@@ -32,9 +32,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createMainNC() -> UINavigationController {
         let mainVC = MainVC()
         mainVC.title = "Main"
-        
         mainVC.tabBarItem = UITabBarItem.init(title: "Main", image: UIImage(named: "mainTab"), tag: 0)
-        
         return UINavigationController(rootViewController: mainVC)
         
     }

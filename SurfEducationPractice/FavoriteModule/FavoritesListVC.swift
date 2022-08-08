@@ -9,21 +9,35 @@ import UIKit
 
 class FavoritesListVC: UIViewController {
     
-    var searchButton = UIBarButtonItem (image: UIImage(named: "SearchSymbol"), style: .plain, target: self, action: #selector(searchStuff(sender:)))
-    
     override func viewDidLoad() {
+    
+        let searchButton = UIBarButtonItem (image: UIImage(named: "SearchSymbol"), style: .plain, target: self, action: #selector(searchStuff(sender:)))
         
         super.viewDidLoad()
+        title = "Favorites"
         view.backgroundColor = .systemPink
         navigationItem.rightBarButtonItem = searchButton
        
     }
     
     @objc func searchStuff (sender: UIBarButtonItem) {
-        let searchController = UISearchController(searchResultsController: nil)
-        
-        navigationItem.searchController = searchController
+        let searchController = SearchVC()
+        navigationController?.pushViewController(searchController, animated: true)
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 }
