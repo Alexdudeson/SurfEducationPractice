@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E51DFA2928A12D6C00AEDF35 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51DFA2828A12D6C00AEDF35 /* SearchVC.swift */; };
 		E5761AE628995BD300B83684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE528995BD300B83684 /* AppDelegate.swift */; };
 		E5761AE828995BD300B83684 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5761AE728995BD300B83684 /* SceneDelegate.swift */; };
 		E5761AF028995BD300B83684 /* SurfEducationPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5761AEE28995BD300B83684 /* SurfEducationPractice.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E51DFA2828A12D6C00AEDF35 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		E5761AE228995BD300B83684 /* SurfEducationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfEducationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5761AE528995BD300B83684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5761AE728995BD300B83684 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				E5761B06289AA0A200B83684 /* MainVC.swift */,
 				E5761B0D289AA16700B83684 /* FavoritesListVC.swift */,
 				E5761B10289AA19D00B83684 /* ProfileVC.swift */,
+				E51DFA2828A12D6C00AEDF35 /* SearchVC.swift */,
 			);
 			path = SurfEducationPractice;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				E5761B0E289AA16700B83684 /* FavoritesListVC.swift in Sources */,
 				E5761AE628995BD300B83684 /* AppDelegate.swift in Sources */,
 				E5761AE828995BD300B83684 /* SceneDelegate.swift in Sources */,
+				E51DFA2928A12D6C00AEDF35 /* SearchVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

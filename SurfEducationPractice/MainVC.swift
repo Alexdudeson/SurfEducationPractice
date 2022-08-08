@@ -9,27 +9,26 @@ import UIKit
 
 class MainVC: UIViewController {
     
-    var searchButton = UIBarButtonItem (image: UIImage(named: "SearchSymbol"), style: .plain, target: self, action: #selector(searchStuff(sender:)))
-    
     override func viewDidLoad() {
         
+        let searchButton = UIBarButtonItem (image: UIImage(named: "SearchSymbol"), style: .plain, target: self, action: #selector(searchStuff))
+        
         super.viewDidLoad()
-        
-        view.backgroundColor = .systemPink
-        
+        title = "Main"
+        view.backgroundColor = .systemPurple
         navigationItem.rightBarButtonItem = searchButton
-       
-        
-        
-        
-        
     }
     
-    @objc func searchStuff (sender: UIBarButtonItem) {
-        let searchController = UISearchController(searchResultsController: nil)
+    @objc func searchStuff () {
+        let searchController = SearchVC()
+//        searchController.title = "Search Here"
+//        searchController.view.backgroundColor = .systemGreen
+//        navigationItem.searchController = searchController
         
-        navigationItem.searchController = searchController
+//        searchController.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Sign out",
+//                                                                             style: .done,
+//                                                                             target: self,
+//                                                                             action: nil)
+        navigationController?.pushViewController(searchController, animated: true)
     }
-    
-    
 }

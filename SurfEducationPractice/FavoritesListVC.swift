@@ -14,15 +14,9 @@ class FavoritesListVC: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
         view.backgroundColor = .systemPink
-        
         navigationItem.rightBarButtonItem = searchButton
        
-        
-        
-        
-        
     }
     
     @objc func searchStuff (sender: UIBarButtonItem) {
